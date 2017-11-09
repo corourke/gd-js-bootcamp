@@ -16,7 +16,7 @@ export default (props) => {
           measure={measureId}
           format="#.##a" />
       </div>
-      <div className="metric-label">{props.label}</div>
+      <div className="metric-label">{ props.label ? props.label : props.metric }</div>
     </div>
   )
 }
