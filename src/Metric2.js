@@ -7,12 +7,13 @@ const C = new CatalogHelper(catalogJson);
 
 class Metric2 extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       isLoading: true,
       error: null,
       measureId: C.metric(this.props.metric)
     }
+    if(this.state.measureId === undefined) this.setState({error: true});
   }
 
   render() {

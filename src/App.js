@@ -23,6 +23,7 @@ class App extends Component {
           <Metric2 metric='Amount' label='Sales Amount'/>
           <Metric2 metric='Ending Pipeline' />
           <Metric2 metric='Lost' />
+          <Metric2 metric='Quota' />
         </WithProject>
       </div>
     );
