@@ -19,11 +19,10 @@ class App extends Component {
     return (
       <div className="App">
         <Header title={"GoodData"}/>
-        <WithProject projectId="la84vcyhrq8jwbu4wpipw66q2sqeb923">
-          <Metric2 metric='Amount' label='Sales Amount'/>
+        <WithProject projectId="asl50ejeo8bzp97i9pxlbcm3vkuvzy72">
+          <Metric2 metric='# of Active Accounts - Last 7 Days' label='Active Accounts - 7 Days'/>
           <Metric2 metric='Ending Pipeline' />
           <Metric2 metric='Lost' />
-          <Metric2 metric='Quota' />
         </WithProject>
       </div>
     );

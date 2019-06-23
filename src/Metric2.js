@@ -11,6 +11,7 @@ class Metric2 extends React.Component {
     this.state = {
       isLoading: true,
       error: null,
+      format: "#.##a",
       measureId: C.metric(this.props.metric)
     }
     if(this.state.measureId === undefined) this.setState({error: true});

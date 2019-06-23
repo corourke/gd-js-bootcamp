@@ -14,3 +14,6 @@ catalog.json - new file from catalog download
 .gitignore - added .idea/ director
 package.json - added gooddata dependency, and changed react and react-dom to version 15
 ```
+
+Starting with bootcamp x.x I switched to the GoodSuccess 2.3 as I did not have access
+to Analytic Designer in the GoodSales demo.
